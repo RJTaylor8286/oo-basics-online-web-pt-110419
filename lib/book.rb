@@ -1,7 +1,8 @@
+
 class Book
  
   def initialize(title)
-    @title = "And Then There Were None"
+    @title = title
   end
  
   def title
@@ -9,7 +10,19 @@ class Book
   end
  
   def author=(author)
-    @author = "Agatha Christie"
+    @author = author
+  end
+ 
+  def author
+    @author
+  end
+ 
+  def page_count=(num)
+    @page_count = num
+  end
+ 
+  def page_count
+    @page_count
   end
  
 end
